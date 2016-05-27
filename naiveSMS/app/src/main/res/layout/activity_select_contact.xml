@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <Button
+            android:id="@+id/bt_all"
+            android:text="全选"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/bt_turn"
+            android:text="反选"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/bt_all"
+            android:layout_toEndOf="@+id/bt_all"/>
+        <Button
+            android:id="@+id/bt_sure"
+            android:text="确定"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/bt_turn"
+            android:layout_toEndOf="@+id/bt_turn"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+</LinearLayout>
