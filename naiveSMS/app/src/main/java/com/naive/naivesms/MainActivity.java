@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                         sendSms(context, contactInfo.getPhone(), txt);
                     }
                 }
-                Toast.makeText(context, "发送完成了。。。", Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "发送完成了!!", Toast.LENGTH_SHORT).show();
 
             }
         });
